@@ -6,4 +6,7 @@ import openpyxl
 
 
 df= pd.read_excel(r"C:\Users\dell\Desktop\CO2-dataset.xlsx")
-print(df.head(50))
+print(df.head())
+
+# Displaying the basic structure and info about the data.
+print(df.info())
