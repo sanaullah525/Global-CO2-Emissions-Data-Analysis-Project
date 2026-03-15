@@ -8,5 +8,5 @@ import openpyxl
 df= pd.read_excel(r"C:\Users\dell\Desktop\CO2-dataset.xlsx")
 print(df.head())
 
-# Displaying the basic structure and info about the data.
+# Displaying the structure and basic info about data.
 print(df.info())
